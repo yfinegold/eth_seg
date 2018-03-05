@@ -16,7 +16,7 @@
 
 ####################################################################################################
 ####################################################################################################
-scriptdir   <- "~/ethiopia/forestmapping/scripts/"
+scriptdir   <- "~/eth_seg/scripts/"
 
 #############################################################
 ### SETUP PARAMETERS
@@ -26,11 +26,10 @@ source(paste0(scriptdir,"parameters1.R"),echo=TRUE)
 source(paste0(scriptdir,"parameters2.R"),echo=TRUE)
 source(paste0(scriptdir,"parameters3_buffer.R"),echo=TRUE)
 
-
 #############################################################
 ### TILE THE RAW IMAGERY
 #############################################################
-source(paste0(scriptdir,"create_tiles.R"),echo=TRUE)
+# source(paste0(scriptdir,"create_tiles.R"),echo=TRUE)
 
 #############################################################
 ### RUN SEGMENTATION
@@ -47,7 +46,6 @@ source(paste0(scriptdir,"training_buffer.R"),echo=TRUE)
 #############################################################
 source(paste0(scriptdir,"extract_spectral_sig.R"),echo=TRUE)
 source(paste0(scriptdir,"RF_classification.R"),echo=TRUE)
-
 
 #############################################################
 ### CREATE POLYGON SEGMENT OUTPUT FOR MANUAL EDITING
