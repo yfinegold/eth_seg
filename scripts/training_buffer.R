@@ -3,7 +3,7 @@
 ####### Author:  yelena.finegold@fao.org & remi.dannunzio@fao.org 
 ####### Update:  2018/03/04                                           
 ####################################################################################
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters3_buffer.R')
+source(paste0(scriptdir,"parameters3_buffer.R"),echo=TRUE)
 ## rasterize the segments using the segment ID column and other raster using the training data column
 tr_shp_seg <- paste0(training_dir_local,'/','seg_training_join.shp')
 buffered_segs <- readOGR(tr_shp_seg)

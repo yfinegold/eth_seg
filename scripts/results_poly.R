@@ -1,8 +1,8 @@
 ## segment output of results for editing
 ####################################################################################################################
 # make sure all the parameters are set
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters1.R')
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters2.R')
+source(paste0(scriptdir,"parameters1.R"),echo=TRUE)
+source(paste0(scriptdir,"parameters2.R"),echo=TRUE)
 
 # ## Loop through all tiles
 # for(i in list.files(seg_dir_local, pattern = 'seg_landsat_', full.names = T)){

@@ -1,8 +1,8 @@
 # segmentation using Orfeo toolbox
 # it is recommended to use at least machine 4 
 # make sure all the parameters are set
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters1.R')
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters2.R')
+source(paste0(scriptdir,"parameters1.R"),echo=TRUE)
+source(paste0(scriptdir,"parameters2.R"),echo=TRUE)
 
 for(i in list.files(rawimgdir, pattern = 'landsat_')){
   print(paste0('checking file ',i))

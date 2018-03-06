@@ -4,8 +4,8 @@
 ####### Update:  2018/03/04                                           
 ####################################################################################
 # make sure all the parameters are set
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters1.R')
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters2.R')
+source(paste0(scriptdir,"parameters1.R"),echo=TRUE)
+source(paste0(scriptdir,"parameters2.R"),echo=TRUE)
 
 ################################################################################
 ####################################################################################################################

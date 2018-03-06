@@ -3,8 +3,8 @@
 ####### Author:  remi.dannunzio@fao.org                               
 ####### Update:  2016/10/31                                           
 ####################################################################################
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters1.R')
-source('/home/finegold/ethiopia/forestmapping/scripts/parameters2.R')
+source(paste0(scriptdir,"parameters1.R"),echo=TRUE)
+source(paste0(scriptdir,"parameters2.R"),echo=TRUE)
 
 ################################################################################
 
