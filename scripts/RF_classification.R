@@ -36,7 +36,8 @@ print("training is read, reading data....")
 library(randomForest)
 ### Run the classification model
 set.seed(1)
-fit <- randomForest(as.factor(tr_code) ~ . ,ntree=400, mtry=6, data=training)
+fit <- randomForest(as.factor(tr_code) ~ . ,ntree=400, mtry=3, data=training)
+# fit <- randomForest(as.factor(tr_code) ~ . ,ntree=400, mtry=6, data=training)
 importance(fit)
 
 ### read data 
